@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulário de Cadastro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="web.css" />
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paraexibir"></a>
+    
+    <div class="content">    
+
+      <!--TABELA DE EXIBIÇÃO-->
+      <div id="exibir">
+
+
+
+      </div>
+
+
+      <!--FORMULÁRIO DE CADASTRO-->
+      <div id="cadastro">
+        <form method="post" action="action.php"> 
+          <h1>Cadastro</h1> 
+           
+          <p> 
+            <label for="nome_cad">Seu nome</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" value="Test"/>
+          </p>
+           
+          <p> 
+            <label for="email_cad">Seu e-mail</label>
+            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@uepb.edu.br" value="emaildeteste@gmail.com" /> 
+          </p>
+           
+          <p> 
+            <label for="senha_cad">Sua senha</label>
+            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234" value="teste123"/>
+          </p>
+
+	  <p> 
+            <label for="senha_cad">Seu curso/label>
+            <input id="senha_cad" name="curso_cad" required="required" type="password" placeholder="ex. computação" value="computação" />
+          </p>
+
+	  <p> 
+            <label for="senha_cad">Seu campus</label>
+            <input id="senha_cad" name="campus_cad" required="required" type="password" placeholder="ex. campina grande" value="senha123" />
+          </p>
+
+	  <p> 
+            <label for="senha_cad">Seu periodo</label>
+            <input id="senha_cad" name="periodo_cad" required="required" type="password" placeholder="ex. 7º" value="7" />
+          </p>
+
+	  <p> 
+            <label for="senha_cad">Sua matricula</label>
+            <input id="senha_cad" name="matricula_cad" required="required" type="password" placeholder="ex. 1234" value="161080243" />
+          </p>
+           
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>
+           
+          <p class="link">  
+            Já tem conta?
+            <a href="#paraexibir"> Exibir Cadastros </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
